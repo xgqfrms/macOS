@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>这个配置描述文件会统一化登录项警告。</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>NotificationSettings</key>
+			<array>
+				<dict>
+					<key>AlertType</key>
+					<integer>1</integer>
+					<key>BadgesEnabled</key>
+					<true/>
+					<key>BundleIdentifier</key>
+					<string>com.apple.btmnotificationagent</string>
+					<key>CriticalAlertEnabled</key>
+					<true/>
+					<key>GroupingType</key>
+					<integer>1</integer>
+					<key>NotificationsEnabled</key>
+					<false/>
+					<key>PreviewType</key>
+					<integer>2</integer>
+					<key>ShowInCarPlay</key>
+					<false/>
+					<key>ShowInLockScreen</key>
+					<false/>
+					<key>ShowInNotificationCenter</key>
+					<true/>
+					<key>SoundsEnabled</key>
+					<false/>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Notifications</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.notificationsettings.11AF0384-EC0A-4452-BD4C-18093A8D3CC7</string>
+			<key>PayloadType</key>
+			<string>com.apple.notificationsettings</string>
+			<key>PayloadUUID</key>
+			<string>11AF0384-EC0A-4452-BD4C-18093A8D3CC7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>这个配置描述文件会统一化登录项警告。</string>
+	<key>PayloadDisplayName</key>
+	<string>fix macOS 13.1 Login Items Notification bug</string>
+	<key>PayloadIdentifier</key>
+	<string>xyz.xgqfrms.loginitemsnotification</string>
+	<key>PayloadOrganization</key>
+	<string>xyz.xgqfrms.loginitemsnotification</string>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>B122DF94-2685-4FD7-87A8-F35A8FDF2E0F</string>
+	<key>PayloadVersion</key>
+	<integer>2</integer>
+	<key>TargetDeviceType</key>
+	<integer>5</integer>
+</dict>
+</plist>
